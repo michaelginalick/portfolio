@@ -15,7 +15,6 @@ body{
 }
 
 
-
 .App-header {
   position: relative;
   min-height: 100vh;
@@ -126,7 +125,7 @@ li .link:hover{
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
+  left:10em;
   top:8em;
   align-items: flex-start;
 }
@@ -142,8 +141,9 @@ li .link:hover{
 }
 
 .project img{
-width: 30em;  
-height: 30em;
+  width: 30em;  
+  height: 30em;
+  object-fit: scale-down;
 }
 .contact{
   position: relative;
@@ -428,7 +428,15 @@ height: 32em;
   font-size: 4em;
 }
 
-
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
-
+}
 
