@@ -33,7 +33,7 @@ class Project extends Component {
                         </div>
                     </div> 
                 </Fade>
-                <div className='project'>
+                <div className=''>
                     <Description     
                         service={this.props.description.service}
                         onClick={(e) => this.handleClick(e) }

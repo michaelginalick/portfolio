@@ -140,6 +140,10 @@ li .link:hover{
   grid-gap: 2em;
 }
 
+.description {
+  margin-right: 40%;
+}
+
 .project img{
   width: 30em;  
   height: 30em;
@@ -237,10 +241,10 @@ nav{
   grid-template-columns: 1fr;
   grid-gap: 5em;
 }
-.project img{
+/* .project img{
 width: 45em;  
 height: 45em;
-}
+} */
 
 .contact{
   top:15em;
@@ -317,10 +321,11 @@ nav{
   grid-template-columns: 1fr 1fr;
   grid-gap: 5em;
 }
-.project img{
+/* .project img{
 width: 30em;  
 height: 30em;
-}
+
+} */
 
 .contact{
   top:15em;
@@ -402,10 +407,10 @@ nav li{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.project img{
+/* .project img{
 width: 32em;  
 height: 32em;
-}
+} */
 
 .contact{
   top:10em;

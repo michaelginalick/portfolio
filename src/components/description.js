@@ -5,12 +5,11 @@ class Description extends Component {
     state = {  }
     render() { 
         return ( 
-        <Fade bottom>
-          <div className='project'>
-              <h1>{this.props.service}</h1>
+          <div className='description'>
+              <h2>{this.props.service}</h2>
               <button className='button' onClick={this.props.onClick}>View Details</button>
           </div> 
-        </Fade>);
+        );
     }
 }
  

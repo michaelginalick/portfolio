@@ -16,7 +16,7 @@ const third = " Continuous learning is something I feel passionate about. \
 When I’m not helping build products I’m pursuing a masters degree at the Georgia Institute of Technology. \
 The curriculum has broadened my technical horizons	writing programs in Java, C, C++, and python. Although Ruby is the language I’m most comfortable with I’m happy to program in any language."
 
-const fourth = " Besides staring at a computer screen I also enjoy training for and completing in triathlons. \
+const fourth = " Besides staring at a computer screen I also enjoy training for and participating in triathlons. \
 I have 4 olympic distance races under my belt and look forward to completing more. \
 On nice Sunday mornings you can find me at Oak street beach swimming in Lake Michigan."
 
