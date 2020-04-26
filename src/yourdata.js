@@ -5,7 +5,7 @@ import star_search from './star_search.png';
 const aboutMe = "I’m an experienced software developer who has worked in early stage startups and large established companies. \
 I started my career working for a large bank in the midwest automating test cases. \
 This position entailed training and working closely with other team members to establish their programming and automation skills. \
-I held one-on-one sessions as well as lead group training sessions. Through automation I saved approximately 20 manual hours per release cycle."
+I held one-on-one sessions as well as led group training sessions. Through automation I saved approximately 20 manual hours per release cycle."
 
 const second = " From there I moved on to a proper software developer role. I have substantial experience working in Ruby on Rails and a variety of javascript frameworks. \
 My professional experience includes building RESTful APIs, creating complex user work flows in single page applications, enhancing ETL pipelines, and data modeling. \
