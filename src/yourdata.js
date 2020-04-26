@@ -4,8 +4,8 @@ import star_search from './star_search.png';
 
 const aboutMe = "I’m an experienced software developer who has worked in early stage startups and large established companies. \
 I started my career working for a large bank in the midwest automating test cases. \
-This position entailed training and working closely with other team members to establish their programming skills. \
-I held one-on-one sessions as well as lead group training sessions. "
+This position entailed training and working closely with other team members to establish their programming and automation skills. \
+I held one-on-one sessions as well as lead group training sessions. Through automation I saved approximately 20 manual hours per release cycle."
 
 const second = " From there I moved on to a proper software developer role. I have substantial experience working in Ruby on Rails and a variety of javascript frameworks. \
 My professional experience includes building RESTful APIs, creating complex user work flows in single page applications, enhancing ETL pipelines, and data modeling. \
@@ -18,7 +18,7 @@ The curriculum has broadened my technical horizons	writing programs in Java, C, 
 
 const fourth = " Besides staring at a computer screen I also enjoy training for and participating in triathlons. \
 I have 4 olympic distance races under my belt and look forward to completing more. \
-On nice Sunday mornings you can find me at Oak street beach swimming in Lake Michigan."
+On nice Sunday mornings you can find me at Ohio street beach swimming in Lake Michigan."
 
 export default
     {
@@ -30,7 +30,7 @@ export default
                         //Line 2 For Header
                         "I'm a software developer ",
                         //Line 3 For Header
-                        'currently residing in Chicago'
+                        'currently residing in Chicago.'
     ],
         //Contact Email
         contactEmail:'michael.ginalick@gmail.com',
