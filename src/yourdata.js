@@ -3,9 +3,9 @@ import cli from './num.png';
 import star_search from './star_search.png';
 
 const aboutMe = "I’m an experienced software developer who has worked in early stage startups and large established companies. \
-I started my career working for a large bank in the midwest automating test cases. \
+I started my career working for a large financial institution in the midwest automating test cases. \
 This position entailed training and working closely with other team members to establish their programming and automation skills. \
-I held one-on-one sessions as well as led group training sessions. Through automation I saved approximately 20 manual hours per release cycle."
+I held one-on-one sessions as well as led group training sessions. Through automation the team and I saved hundreds of man hours a year in automation testing."
 
 const second = " From there I moved on to a proper software developer role. I have substantial experience working in Ruby on Rails and a variety of javascript frameworks. \
 My professional experience includes building RESTful APIs, creating complex user work flows in single page applications, enhancing ETL pipelines, and data modeling. \
@@ -24,35 +24,35 @@ export default
     {
         //(Please Do Not Remove The comma(,) after every variable)
         //Change The Website Template
-        name :'',
+        name: '',
         headerTagline: [//Line 1 For Header
-                        "Hi, my name is Michael Ginalick.",
-                        //Line 2 For Header
-                        "I'm a software developer ",
-                        //Line 3 For Header
-                        'currently residing in Chicago.'
-    ],
+            "Hi, my name is Michael Ginalick.",
+            //Line 2 For Header
+            "I'm a software developer ",
+            //Line 3 For Header
+            'currently residing in Chicago.'
+        ],
         //Contact Email
-        contactEmail:'michael.ginalick@gmail.com',
+        contactEmail: 'michael.ginalick@gmail.com',
         // Add Your About Text Here
         abouttext: aboutMe,
         second: second,
         third: third,
         fourth: fourth,
-        aboutImage:'',
-       //Change This To Hide The Image of About Section (True Or False)
-       ShowAboutImage:false,//true or false (Change Here)
-       // Change Projects Here 
-       projects:[
-           [
-               {
+        aboutImage: '',
+        //Change This To Hide The Image of About Section (True Or False)
+        ShowAboutImage: false,//true or false (Change Here)
+        // Change Projects Here 
+        projects: [
+            [
+                {
                     id: 1,//DO NOT CHANGE THIS (Please)😅
-                    title:'Chicago Fun Times Calendar', //Project Title - Add Your Project Title Here
-                    service:'Golang, VueJS, AWS, NGINX', // Add Your Service Type Here
+                    title: 'Chicago Fun Times Calendar', //Project Title - Add Your Project Title Here
+                    service: 'Golang, VueJS, AWS, NGINX', // Add Your Service Type Here
                     //Project Image - Add Your Project Image Here
                     imageSrc: flag,
                     //Project URL - Add Your Project Url Here
-                    url:'http://chicagofuntimescalendar.com/'
+                    url: 'http://chicagofuntimescalendar.com/'
                 },
                 {
                     service: "This is a side project that attemps to capture all the events going on around Chicago. \
@@ -66,7 +66,7 @@ export default
                 {
                     id: 2,//DO NOT CHANGE THIS (Please)😅
                     title: 'Command Line Pomodoro Tracker',
-                    service: 'Golang',
+                    service: 'Golang, Docker',
                     imageSrc: cli,
                     url: 'https://github.com/michaelginalick/go_pomodoro'
                 },
@@ -98,12 +98,9 @@ export default
         ],
         social: [
             // Add Or Remove The Link Accordingly
-            {   name:'Github',
-                url:'https://github.com/michaelginalick'
-            },
             {
-                name:'LinkedIn',
-                url: 'https://www.linkedin.com/in/michael-ginalick-a90b371a3/'
+                name: 'Github',
+                url: 'https://github.com/michaelginalick'
             }
         ]
     }
