@@ -5,10 +5,6 @@ import data from '../yourdata';
 
 
 class Work extends Component {
-    
-    
- 
-
     render() { 
         return (
         <div>
