@@ -1,6 +1,7 @@
 import flag from './download.png';
 import cli from './num.png';
 import star_search from './star_search.png';
+import saml from './saml.png';
 
 const aboutMe = "I’m an experienced software developer who has worked in early stage startups and large established companies. \
 I started my career working for a large financial institution in the midwest automating test cases. \
@@ -93,6 +94,22 @@ export default
                               Accompanying the program was full UML documentation including sequence and deploy diagrams. \
                               It's worth nothing that due to academic policy at Georgia Tech I am unable to post source code on a publicly accessible repository. \
                               Please contact me for additional information."
+                }
+            ],
+            [
+                {
+                    id: 4,
+                    title: 'Saml Parser',
+                    service: 'Ruby',
+                    imageSrc: saml,
+                    url: 'https://github.com/michaelginalick/saml-parser'
+                },
+                {
+                    service: "A simple ruby library to assist with parsing SAML XML metadata payloads. \
+                    We have many SAML providers and were manually parsing the XML of each provider. \
+                    I built this library to automatically parse the payload as well as generate the \
+                    X509 certificate based on the digest algorithm passed in. You can use this library as a simple \
+                    command line tool or in your application."
                 }
             ]
         ],
